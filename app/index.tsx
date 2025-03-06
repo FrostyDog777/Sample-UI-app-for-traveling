@@ -1,33 +1,36 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
 import AppIntroSlider from "react-native-app-intro-slider";
-import DashboardScreen from "./DashboardScreen"; // Import Dashboard screen
+import DashboardScreen from "./DashboardScreen";
 import BottomTabNavigator from "./navigation/TabNavigator";
 
+//From here onward in this file, everything here is for the onboarding process.
+//All images from this are all placeholders except for key 1
 const slides = [
   {
     key: "1",
     title: "Plan Your Travel",
     text: "Create your dream trip with ease. Choose a destination, find the perfect place to stay, and create an itinerary that suits your preferences.",
     backgroundColor: "#DEC0C3",
-    image: require("../assets/images/PlanTravel.png"),
+    image: require("../assets/images/PlanTravel.png"), //Onboarding image
   },
   {
     key: "2",
     title: "Get the Best Deal",
     text: "Save time and money by finding the best travel deals. We provide a range of exclusive promotions and discounts to make your trip more affordable.",
     backgroundColor: "#DEC0C3",
-    image: require("../assets/images/PlanTravel.png"),
+    image: require("../assets/images/PlanTravel.png"), //Image placeholder
   },
   {
     key: "3",
     title: "Explore Local Attractions",
     text: "Discover the beauty of local places you may never have visited. Experience local life and enjoy authentic experiences in each destination.",
     backgroundColor: "#DEC0C3",
-    image: require("../assets/images/PlanTravel.png"),
+    image: require("../assets/images/PlanTravel.png"), //Image placeholder
   },
 ];
 
+//Using React Native intro slider from here
 const OnboardingScreen = ({ onFinish }) => {
   return (
     <AppIntroSlider
