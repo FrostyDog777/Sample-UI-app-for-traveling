@@ -7,7 +7,10 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 1. Install dependencies
 
    ```bash
-   npm install
+   npm install 
+   ```
+    ```bash
+   npm install react-native-app-intro-slider react-native-paper react-native-svg @expo/vector-icons expo-linear-gradient
    ```
 
 2. Start the app
