@@ -28,16 +28,9 @@ In the output, you'll find options to open the app in a
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
 ## Where's the files located and do I need to install something else?
-Files and codes are all located in App folder and please install the necessary libraries before running the project. 
+Files and codes are all located in App folder and please install the necessary libraries before running the project otherwise it wouldn't run and it will return error. 
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
+## Join the Expo community
 
 Join our community of developers creating universal apps.
 
